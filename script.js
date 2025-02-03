@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const button = document.getElementById('link-button');
+  const githubButton = document.getElementById('github-button');
+  const linkedinButton = document.getElementById('linkedin-button');
 
-// Link to Github
-  button.addEventListener('click', () => {
-    window.location.href = 'https://github.com/yourusername'; // Change this to your GitHub or LinkedIn URL
+  githubButton.addEventListener('click', () => {
+    window.location.href = 'https://github.com/codecoogs';
+  });
+
+  linkedinButton.addEventListener('click', () => {
+    window.location.href = 'https://www.linkedin.com/company/code-coogs/posts/?feedView=all';
   });
 });
